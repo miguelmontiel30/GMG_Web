@@ -21,9 +21,9 @@ body::-webkit-scrollbar-thumb:hover{
 /* Estilo para el contenedor del articulo */                    
 .articulo{    
     margin-top: 15px;
-    
 }
 
+/* Estilo para el contenido del Articulo */
 .contenido-articulo{        
     padding: 7px;
     margin-top: 15px;
@@ -90,17 +90,11 @@ hr.separador-articulo{
     font-size: 18px;
     text-align: justify;    
 }
-
-.mapa-info{
-    display: inline-block;
-    margin-bottom: 0px;
-}
-
                     /*Fin de los estilos para los ARTICULOS */
 
                     /* Estilos para el ASIDE */
 aside{
-   display: block; 
+   
 }
                     /*Fin de los Estilos para el ASIDE */
 
@@ -110,11 +104,11 @@ aside{
 footer{
     padding: 15px;
     background: rgb(10, 34, 64);
-    height: 120px;
+    margin-top: 20px;
     text-align: center;
 }
 
-.contenido-footer{
+footer p{
     color: white;
     font-size: 22px;
 }
