@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Esta página es para publicidad del Colegio GMG">
+    <meta name="author" content="">
+
+    <!-- Icono y titulo del encabezado -->
+    <link rel="icon" href="../../favicon.ico">
+    <title>GMG</title>
+
+    <!-- Vinculos hacia los CSS y Bootstrap CSS-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos -->
+    <link href="../css/nav-styles.css" rel="stylesheet">
+    <link href="../css/carrousel-styles.css" rel="stylesheet">
+    <link href="../css/section-styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Cabecera con el carrousel y el menú -->
+    <header>
+
+        <!-- Carrousel -->
+        <div id="carrousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicadores del slider -->
+            <ol class="carousel-indicators">
+                <li data-target="#carrousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carrousel" data-slide-to="1"></li>
+                <li data-target="#carrousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Imagenes del slider -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="carrousel-img" src="../imagenes/img_slider_1.jpg" alt="Escuela">
+                </div>
+
+                <div class="item">
+                    <img class="carrousel-img" src="../imagenes/img_slider_2.jpg" alt="Escuela">
+                </div>
+
+                <div class="item">
+                    <img class="carrousel-img" src="../imagenes/img_slider_3.jpg" alt="Escuela">
+                </div>
+            </div>
+
+            <!-- Controles del slider -->
+            <a class="left carousel-control" href="#carrousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#carrousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-fixed-top navbar-default container" role="navigation">
+
+            <!--Logotipo y boton para dispositivos pequeños-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="../imagenes/Logo.jpg" alt="">
+                </a>
+                <p id="menu-letras" class="hidden-xs hidden-sm navbar-text">Colegio Gabriel Mancera García</p>
+                <p id="menu-letras" class="hidden-lg hidden-md navbar-text">Colegio GMG</p>
+            </div>
+
+            <!-- Botones de la barra de navegación -->
+            <div class="collapse nav-botones navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="menu-letras" href="conocenos.html">Conócenos</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a id="menu-letras" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Inicia Sesión
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a id="menu-letras" href="#">Padres</a>
+                            </li>
+                            <li>
+                                <a id="menu-letras" href="#">Profesores</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="container-fluid col-md-9">
+        <br>
+
+        <div class="container-fluid col-md-12 titles-section img-rounded">
+            <h2>
+                <center>
+                    ¿Qué enseñamos?
+                </center>
+            </h2>
+            <h3>
+                <center>
+                    En GMG nos enfocamos a la eseñanza ágil con base a estudios modernos, así todos aprendemos.
+                </center>
+            </h3>
+        </div>
+
+        <article class="container col-sm-4">
+            <br>
+            <center>
+                <img class="img-responsive img-ensenanza" src="../imagenes/Icons/computacion.png" alt="Computación">
+            </center>
+            <h4>
+                <center>
+                    Computación
+                </center>
+            </h4>
+            <p>
+                <center class="texto-ensenanza">
+                    La computación es escencial para el aprendizaje, ya que en la actualidad es escencial manejar una computadora.
+                </center>
+            </p>
+        </article>
+
+        <article class="container col-sm-4">
+            <br>
+            <center>
+                <img class="img-responsive img-ensenanza" src="../imagenes/Icons/ingles.png" alt="Lengua Extranjera">
+            </center>
+            <h4>
+                <center>
+                    Lengua Extranjera
+                </center>
+            </h4>
+            <p>
+                <center class="texto-ensenanza">
+                    El aprendizaje de una lengua extra hace más competentes a los alumnos, desempeñandose mejor en el entorno social.
+                </center>
+            </p>
+        </article>
+
+        <article class="container col-sm-4">
+            <br>
+            <center>
+                <img class="img-responsive img-ensenanza" src="../imagenes/Icons/taller.png" alt="Taller">
+            </center>
+            <h4>
+                <center>
+                    Taller
+                </center>
+            </h4>
+            <p>
+                <center class="texto-ensenanza">
+                    Los talleres estimulan a los alumnos para un mejor desempeño en sus clases, así como la opción de aprender algo nuevo.
+                </center>
+            </p>
+        </article>
+
+    </section>
+
+    <aside class="hidden-xs hidden-sm col-md-3">
+        <div class="container-fluid">
+            <br>
+            <ul>
+                <li class="list-group-item active" id="#mn"> Menu de navegación </li>
+                <a href="#informes" class="list-group-item">Requisitos de inscripción</a>
+                <a href="#uniformes" class="list-group-item">El uniforme de la escuela</a>
+                <a href="#participaciones" class="list-group-item">Participaciones importantes</a>
+            </ul>
+        </div>
+    </aside>
+
+    <section class="container-fluid col-sm-12 contenedor-articulos">
+
+        <div class="img-rounded container titles-section col-sm-12">
+            <h2>
+                <center>
+                    ¡Inscribete con nosotros!
+                </center>
+            </h2>
+        </div>
+
+        <!--tabs de requisitos -->
+        <div class="requisitos col-md-8 container">            
+            <div class="row">
+                <div class="container col-md-8">
+                    <div role="tabpanel">
+
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#seccion1" aria-controls="" data-toggle="tab" role="tab">Jardin 2</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#seccion2" aria-controls="" data-toggle="tab" role="tab">Preescolar 3</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#seccion3" aria-controls="" data-toggle="tab" role="tab">Primaria</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <div role="tabpanel" class="row tab-pane active jumbotron" id="seccion1">
+                                <div class="container col-md-6">
+                                    <h3>Requisitos Jardín-2</h3>                                    
+                                    <p>
+                                        <ul>
+                                            <li>4 años cumplidos al 31 de diciembre (2° preescolar)</li>
+                                            <li>Acta de Nacimiento</li>
+                                            <li>Copia del acta de nacimiento.</li>
+                                            <li>Copia de CURP.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
+                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="row tab-pane jumbotron" id="seccion2">
+                                <div class="container col-md-6">
+                                    <h3 class="inscrip">Requisitos Preescolar-3</h3>                                    
+                                    <p>
+                                        <ul>
+                                            <li>5 años cumplidos al 31 de diciembre (3° preescolar)</li>
+                                            <li>Acta de Nacimiento</li>
+                                            <li>Copia del acta de nacimiento.</li>
+                                            <li>Copia de CURP.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
+                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
+                                </div>
+                            </div>
+
+                            <div role="tabpanel" class="row tab-pane jumbotron" id="seccion3">
+                                <div class="container col-md-6">
+                                    <h3 class="inscrip">Requisitos Primaria</h3>
+                                    <p>
+                                        <ul>
+                                            <li>Copia de acta de nacimiento.</li>
+                                            <li>Copia de CURP.</li>
+                                            <li>Copia de cartilla de vacunación (solo para ingreso a 1º).</li>
+                                            <li>Constancia de estudios de 3° de Preescolar (para ingreso a 1º).</li>
+                                            <li>Copia de la boleta del grado que cursa actualmente y del año anterior (para ingreso
+                                                de 2° a 6° grado).</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
+                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container titles-section requisitos img-rounded col-md-6">
+            <h2>
+                <center>
+                    ¡Aprovecha este Mes!
+                </center>
+            </h2>
+        </div>
+
+    </section>
+
+
+
+    <div class="clearfix"></div>
+
+    <!-- Contenedor para sección del personal -->
+    <div class="container-fluid">
+
+        <!-- Comentarios del personal -->
+        <section>
+            <div class="principal-content container-fluid">
+                <div class="container col-md-12">
+                    <center>
+                        <h1>Conoce la experiencia de estar en GMG</h1>
+                        <br>
+                    </center>
+                </div>
+                <div class="container col-md-4">
+                    <img id="circle-image" src="../imagenes/cara_1.jpg" alt="">
+                    <blockquote>
+                        <p>"La mejor forma de aprender es enseñando, por eso en GMG nos comprometemos a enseñar lo mejor."</p>
+                        <footer>
+                            Directora de la institución.
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="container col-md-4">
+                    <img id="circle-image" src="../imagenes/cara_2.jpg" alt="">
+                    <blockquote>
+                        <h3>"El ambiente laboral es excelente"</h3>
+                        <footer>
+                            Profesor de Academia.
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="container col-md-4">
+                    <img id="circle-image" src="../imagenes/cara_3.jpg" alt="">
+                    <blockquote>
+                        <h3>"Me encanta venir a esta escuela"</h3>
+                        <footer>
+                            Alumno de la institución.
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <br>
+        </section>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="container">
+        <p class="pull-right">
+            <a href="#">Ir Arriba</a>
+        </p>
+        <p>&copy; 2016 Miguel develops Inc. &middot;
+            <a href="#">Facebook</a> &middot;
+            <a href="#">Whats App</a>
+        </p>
+    </footer>
+
+    <!-- Vinculos a JavaScript y JQuery -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+ <!-- Contenedor principal de la página -->
+ <div class="container-fluid contenido" id="Contenedor principal">
+
+        <!-- Contenedor del cuerpo de la página -->
+        <div class="container-fluid">
+
+            <!-- Logros-->
+            <section class="logros">
+                <article class="principal-content container-fluid">
+                    <div id="titles-section" class="col-sm-12 container-fluid">
+                        <h1>Eventos</h1>
+                    </div>
+                    <div class="container col-md-6">
+                        <h3>Día de primavera</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
+                            dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
+                            quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum
+                            quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus
+                            qui enim ullam quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis
+                            incidunt cum quidem.
+                        </p>
+                    </div>
+                    <div class="img-cont-container container col-md-6">
+                        <img class="img-responsive" src="../imagenes/disfraz.jpg" alt="Día de disfraz">
+                    </div>
+                </article>
+            </section>
+
+            <!-- Actividades-->
+            <section>
+                <article class="principal-content container-fluid">
+                    <div id="titles-section" class="container-fluid">
+                        <h1>Fomento al deporte</h1>
+                    </div>
+                    <div class="container-information container col-md-6">
+                        <h3>Torneo de fútbol</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
+                            dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
+                            quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum
+                            quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus
+                            qui enim ullam quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis
+                            incidunt cum quidem.
+                        </p>
+                    </div>
+                    <div class="img-cont-container container col-md-6">
+                        <img class="img-responsive" src="../imagenes/evento_dpt.jpg" alt="evento">
+                    </div>
+                </article>
+            </section>
+
+        </div>
+
+    </div>

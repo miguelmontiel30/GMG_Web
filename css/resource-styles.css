@@ -1,0 +1,47 @@
+/* Estilos para el contenedor del carousel */
+header div.container-fluid{
+ 
+    padding: 0px;
+}
+
+/* Estilo para el control del tamaño de la IMAGEN DEL CAROUSEL */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    width: 100%;
+    height: 400px;
+}
+
+/* Estilo para imagenes de articulos */
+.img-evento{
+    max-height: 20em;
+    margin-bottom: 0px;    
+}
+
+
+/* Estilo para el icono de IR ARRIBA */
+.icon-prop{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+/* Estilos para hacer imagen Circular*/
+#circle-image{    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: 100% auto;
+    display:block;
+    margin:auto;
+}
+
+/* Estilos para contenedor de imagen circular */
+.img-ensenanza{
+    max-width: 64px;
+    max-height: 64px;
+}
+
+/*Estilos para el mapa de ubicacion */
+.mapa{
+    width: 100%;
+    height: 300px;
+}
