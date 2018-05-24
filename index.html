@@ -9,22 +9,22 @@
     <meta name="author" content="">
 
     <!-- Icono y titulo del encabezado -->
-    <link rel="icon" href="../imagenes/Logo.png">
+    <link rel="icon" href="/imagenes/Logo.png">
     <title>GMG</title>
 
     <!-- Vinculos hacia los CSS y Bootstrap CSS-->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos -->
-    <link href="../css/nav-styles.css" rel="stylesheet">
-    <link href="../css/resource-styles.css" rel="stylesheet">
-    <link href="../css/section-styles.css" rel="stylesheet">
+    <link href="css/nav-styles.css" rel="stylesheet">
+    <link href="css/resource-styles.css" rel="stylesheet">
+    <link href="css/section-styles.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <script src="../js/plugins.js"></script>
+    <script src="js/plugins.js"></script>
 
     <!-- Inicio de la cabecera de la página 
     ==========================================-->
@@ -47,7 +47,7 @@
 
                 <!-- Enlace con el Logotipo de la escuela-->
                 <a class="" href="#">
-                    <img alt="Brand" src="../imagenes/Logo.png">
+                    <img alt="Brand" src="imagenes/Logo.png">
                     <p class="pull-right navbar-text hidden-xs hidden-sm">Colegio Gabriel Mancera García</p>
                     <p class="pull-right navbar-text hidden-md hidden-lg">Colegio GMG</p>
                 </a>
@@ -98,12 +98,12 @@
 
                         <!-- Contenedor del Primer Slider -->
                         <div class="item active">
-                            <img class="img-responsive" src="../imagenes/img_slider_1.png" alt="Primer Slider">
+                            <img class="img-responsive" src="imagenes/img_slider_1.png" alt="Primer Slider">
                         </div>
 
                         <!-- Contenedor del Segundo Slider -->
                         <div class="item">
-                            <img class="img-responsive" src="../imagenes/img_slider_2.jpg" class="slider" alt="Segundo Slider">
+                            <img class="img-responsive" src="imagenes/img_slider_2.jpg" class="slider" alt="Segundo Slider">
 
                             <!-- Contenedor del Texto del Slider -->
                             <div class="carousel-caption">
@@ -119,7 +119,7 @@
 
                         <!-- Contenedor del Tercer Slider -->
                         <div class="item">
-                            <img class="img-responsive" src="../imagenes/img_slider_3.jpg" class="slider" alt="">
+                            <img class="img-responsive" src="imagenes/img_slider_3.jpg" class="slider" alt="">
                             <!-- Contenedor del Texto del Slider -->
                             <div class="carousel-caption">
                                 <h1>Nuestra visión y Misión</h1>
@@ -175,7 +175,7 @@
             <!-- Contenedor de la Imagen del Articulo
             ==========================================-->
             <div class="contenedor-img-articulo col-sm-12 col-md-6 container-fluid">
-                <img class="img-evento thumbnail img-responsive" src="../imagenes/evento-1.jpg" alt="Generación graduada">
+                <img class="img-evento thumbnail img-responsive" src="imagenes/evento-1.jpg" alt="Generación graduada">
             </div>
 
             <!-- Contenedor del texto del Articulo 
@@ -184,21 +184,88 @@
                 <h3 class="title-article"> ¡Sí se pudo! </h3>
                 <hr class="separador-articulo">
                 <h6 class="title-date"> 12-Junio-2018 </h6>
-                <p>
+                <p class="texto-seccion">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dignissimos dolor accusantium id sit architecto non voluptas
                     maiores saepe fugiat ad quia, numquam quae iure dolorum? Exercitationem suscipit quo perferendis. Lorem
                     ipsum dolor sit amet, consectetur adipisicing elit. Totam dignissimos dolor accusantium id sit architecto
-                    non voluptas maiores saepe fugiat ad quia, numquam quae iure dolorum? Exercitationem suscipit quo perferendis.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dignissimos dolor accusantium id sit
-                    architecto non
+                </p>
+            </div>
+
+        </article>
+
+        <!-- Sección VISITANOS 
+        ==========================================-->
+        <article class="articulo container-fluid">
+
+            <!-- Titulo del Articulo
+            ==========================================-->
+            <h2 class="titles-section">Visitanos en...</h2>
+
+            <div class="container-fluid contenedor-img-articulo col-sm-12 col-md-6">
+                <iframe class="thumbnail mapa" src="https://www.mapsdirections.info/crear-un-mapa-de-google/map.php?width=100%&height=600&hl=en&q=%20Sor%20Juana%20I%20de%20la%20Cruz%20No.%2032%2C%20%20Nuevo%2C%20Tulancingo%20de%20Bravo%2C%20Hidalgo%2C%20C.P.%2043612+(Colegio%20GMG)&ie=UTF8&t=&z=16&iwloc=A&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    <a href="https://www.mapsdirections.info/crear-un-mapa-de-google/">Crear Google Map</a> by
+                    <a href="https://www.mapsdirections.info/">Mapa España</a>
+                </iframe>
+            </div>
+
+            <!-- Contenedor del texto del Articulo 
+            ==========================================-->
+            <div class="contenido-articulo col-sm-12 col-md-6 container-fluid">
+
+                <img class="pull-left" src="imagenes/Icons/ubicacion.png" alt="Ubicacion">
+                <p class="">
+                    Calle: Sor Juana I. de la Cruz No.32
+                    <br> Colonia: Nuevo Tulancingo
+                    <br> C.P. 43612
+                    <br> Tulancingo de Bravo Hidalgo
+                </p>
+                <img class="pull-left" src="imagenes/Icons/telefono.png" alt="">
+                <br>
+                <h4>775-75-3-11-22</h4>
+                <br>    
+                <h4>
+                    Horario de Atención de 8:00 a.m. A 3 p.m.
+                </h4>
+            </div>
+
+        </article>
+
+
+        <!-- Articulo principal de la página web 
+        ==========================================-->
+        <article class="articulo container-fluid">
+
+            <!-- Titulo del Articulo
+            ==========================================-->
+            <h2 class="titles-section"> ¡22° Generación graduada! </h2>
+
+            <!-- Contenedor de la Imagen del Articulo
+            ==========================================-->
+            <div class="contenedor-img-articulo col-sm-12 col-md-6 container-fluid">
+                <img class="img-evento thumbnail img-responsive" src="imagenes/evento-1.jpg" alt="Generación graduada">
+            </div>
+
+            <!-- Contenedor del texto del Articulo 
+            ==========================================-->
+            <div class="contenido-articulo col-sm-12 col-md-6 container-fluid">
+                <h3 class="title-article"> ¡Sí se pudo! </h3>
+                <hr class="separador-articulo">
+                <h6 class="title-date"> 12-Junio-2018 </h6>
+                <p class="texto-seccion">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dignissimos dolor accusantium id sit architecto non voluptas
+                    maiores saepe fugiat ad quia, numquam quae iure dolorum? Exercitationem suscipit quo perferendis. Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Totam dignissimos dolor accusantium id sit architecto
                 </p>
             </div>
 
         </article>
 
     </section>
+    <!-- Fin del contenido del sitio web 
+    ==========================================-->
 
-
+    <!-- Inicio del Aside del sitio web -->
     <aside class="color2 container-fluid hidden-xs hidden-sm col-md-3">
         <h2>Publicidad</h2>
         <div class="fb-page" data-href="https://www.facebook.com/A-la-mierda-la-escuela-no-es-cierto-mam&#xe1;-522259021134787/"
@@ -208,17 +275,23 @@
             </blockquote>
         </div>
     </aside>
+    <!-- Fin del Aside 
+    ==========================================-->
 
     <div class="clearfix visible-lg-block"></div>
 
+    <!-- Inicio del Footer 
+    ==========================================-->
     <footer class="container-fluid">
         <h2> Miguel Angel Ortega </h2>
     </footer>
+    <!-- Fin del footer
+    ==========================================-->
 
 
     <!-- Vinculos a JavaScript y JQuery -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
