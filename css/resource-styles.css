@@ -22,6 +22,22 @@ header div.container-fluid{
     height: 20em;
 }
 
+/* Estilo para los iconos del mapa*/
+div.contenido-articulo img.pull-left {
+    margin-left: 10px;
+    width: 5em;
+    height: 5em;
+}
+
+div.contenido-articulo h4 {
+    text-align: center;
+}
+
+div.contenido-articulo h5 {
+    font-size: 1.3em;
+}
+
+
 /* Estilo para el icono de IR ARRIBA */
 .icon-prop{
     width: 40px;
