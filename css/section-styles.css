@@ -110,7 +110,11 @@ footer{
 
 footer p{
     color: white;
-    font-size: 22px;
+    font-size: 15px;
+}
+
+.footer-text{
+    color: white;
 }
 
                     /*Fin de los Estilos para el FOOTER */
