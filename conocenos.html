@@ -12,11 +12,11 @@
     <title>GMG</title>
 
     <!-- Vinculos hacia los CSS y Bootstrap CSS-->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos -->
-    <link href="../css/nav-styles.css" rel="stylesheet">
-    <link href="../css/carrousel-styles.css" rel="stylesheet">
-    <link href="../css/section-styles.css" rel="stylesheet">
+    <link href="css/nav-styles.css" rel="stylesheet">
+    <link href="css/carrousel-styles.css" rel="stylesheet">
+    <link href="css/section-styles.css" rel="stylesheet">
 
 </head>
 
@@ -24,42 +24,6 @@
 
     <!-- Cabecera con el carrousel y el menú -->
     <header>
-
-        <!-- Carrousel -->
-        <div id="carrousel" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicadores del slider -->
-            <ol class="carousel-indicators">
-                <li data-target="#carrousel" data-slide-to="0" class="active"></li>
-                <li data-target="#carrousel" data-slide-to="1"></li>
-                <li data-target="#carrousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Imagenes del slider -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="carrousel-img" src="../imagenes/img_slider_1.jpg" alt="Escuela">
-                </div>
-
-                <div class="item">
-                    <img class="carrousel-img" src="../imagenes/img_slider_2.jpg" alt="Escuela">
-                </div>
-
-                <div class="item">
-                    <img class="carrousel-img" src="../imagenes/img_slider_3.jpg" alt="Escuela">
-                </div>
-            </div>
-
-            <!-- Controles del slider -->
-            <a class="left carousel-control" href="#carrousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="right carousel-control" href="#carrousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
-        </div>
 
         <!-- Barra de navegación -->
         <nav class="navbar navbar-fixed-top navbar-default container" role="navigation">
@@ -73,7 +37,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img id="logo" src="../imagenes/Logo.jpg" alt="">
+                    <img id="logo" src="imagenes/Logo.jpg" alt="">
                 </a>
                 <p id="menu-letras" class="hidden-xs hidden-sm navbar-text">Colegio Gabriel Mancera García</p>
                 <p id="menu-letras" class="hidden-lg hidden-md navbar-text">Colegio GMG</p>
@@ -129,7 +93,7 @@
         </div>
 
         <!--tabs de requisitos -->
-        <div class="requisitos col-md-8 container">            
+        <div class="requisitos col-md-8 container">
             <div class="row">
                 <div class="container col-md-8">
                     <div role="tabpanel">
@@ -150,7 +114,7 @@
 
                             <div role="tabpanel" class="row tab-pane active jumbotron" id="seccion1">
                                 <div class="container col-md-6">
-                                    <h3>Requisitos Jardín-2</h3>                                    
+                                    <h3>Requisitos Jardín-2</h3>
                                     <p>
                                         <ul>
                                             <li>4 años cumplidos al 31 de diciembre (2° preescolar)</li>
@@ -167,7 +131,7 @@
 
                             <div role="tabpanel" class="row tab-pane jumbotron" id="seccion2">
                                 <div class="container col-md-6">
-                                    <h3 class="inscrip">Requisitos Preescolar-3</h3>                                    
+                                    <h3 class="inscrip">Requisitos Preescolar-3</h3>
                                     <p>
                                         <ul>
                                             <li>5 años cumplidos al 31 de diciembre (3° preescolar)</li>
@@ -266,15 +230,34 @@
 
     </div>
 
-    <!-- Pie de página -->
-    <footer class="container">
-        <p class="pull-right">
-            <a href="#">Ir Arriba</a>
-        </p>
-        <p>&copy; 2016 Miguel develops Inc. &middot;
-            <a href="#">Facebook</a> &middot;
-            <a href="#">Whats App</a>
-        </p>
+    <!-- Inicio del Footer 
+    ==========================================-->
+    <footer class="container-fluid">
+        <div class="container-fluid row col-sm-12 col-md-12">
+            <img class="img-footer" src="imagenes/Logo.png" alt="Logotipo">
+            <p class="footer-text">
+                &copy; 2018 Colegio Gabriel Mancera García
+                <br> Todos los derechos reservados &copy;
+            </p>
+        </div>
+        <div class="container-fluid col-sm-12 col-md-12">
+            <p class="desarrollador">&copy; 2018 Miguel develops Inc. &middot;
+                <a href="https://www.facebook.com/angel.ortegamontiel">
+                    <img class="img-redes" src="imagenes/Icons/facebook.png" alt="">Facebook</a> &middot;
+                <a href="#">
+                    <img class="img-redes" src="imagenes/Icons/personal.png" alt=""> Contacto Personal/Blog</a>
+                <a href="https://github.com/miguelmontiel30">
+                    <img class="img-redes" src="imagenes/Icons/github.png" alt=""> Github</a>
+            </p>
+        </div>
+        <!--<div class="container col-sm-12 col-md-3">
+                    <p class="pull-right">
+                        <a href="#">
+                            <center>
+                                <img src="imagenes/Icons/ir_arriba.png" alt="Ir arriba"> Ir arriba</center>
+                        </a>
+                    </p>
+                </div>-->
     </footer>
 
     <!-- Vinculos a JavaScript y JQuery -->
@@ -286,60 +269,58 @@
 
 
 
- <!-- Contenedor principal de la página -->
- <div class="container-fluid contenido" id="Contenedor principal">
+<!-- Contenedor principal de la página -->
+<div class="container-fluid contenido" id="Contenedor principal">
 
-        <!-- Contenedor del cuerpo de la página -->
-        <div class="container-fluid">
+    <!-- Contenedor del cuerpo de la página -->
+    <div class="container-fluid">
 
-            <!-- Logros-->
-            <section class="logros">
-                <article class="principal-content container-fluid">
-                    <div id="titles-section" class="col-sm-12 container-fluid">
-                        <h1>Eventos</h1>
-                    </div>
-                    <div class="container col-md-6">
-                        <h3>Día de primavera</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
-                            dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
-                            quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum
-                            quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus
-                            qui enim ullam quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis
-                            incidunt cum quidem.
-                        </p>
-                    </div>
-                    <div class="img-cont-container container col-md-6">
-                        <img class="img-responsive" src="../imagenes/disfraz.jpg" alt="Día de disfraz">
-                    </div>
-                </article>
-            </section>
+        <!-- Logros-->
+        <section class="logros">
+            <article class="principal-content container-fluid">
+                <div id="titles-section" class="col-sm-12 container-fluid">
+                    <h1>Eventos</h1>
+                </div>
+                <div class="container col-md-6">
+                    <h3>Día de primavera</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
+                        dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam
+                        cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
+                        quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem.
+                    </p>
+                </div>
+                <div class="img-cont-container container col-md-6">
+                    <img class="img-responsive" src="../imagenes/disfraz.jpg" alt="Día de disfraz">
+                </div>
+            </article>
+        </section>
 
-            <!-- Actividades-->
-            <section>
-                <article class="principal-content container-fluid">
-                    <div id="titles-section" class="container-fluid">
-                        <h1>Fomento al deporte</h1>
-                    </div>
-                    <div class="container-information container col-md-6">
-                        <h3>Torneo de fútbol</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
-                            dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
-                            quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum
-                            quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus
-                            qui enim ullam quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis
-                            incidunt cum quidem.
-                        </p>
-                    </div>
-                    <div class="img-cont-container container col-md-6">
-                        <img class="img-responsive" src="../imagenes/evento_dpt.jpg" alt="evento">
-                    </div>
-                </article>
-            </section>
-
-        </div>
+        <!-- Actividades-->
+        <section>
+            <article class="principal-content container-fluid">
+                <div id="titles-section" class="container-fluid">
+                    <h1>Fomento al deporte</h1>
+                </div>
+                <div class="container-information container col-md-6">
+                    <h3>Torneo de fútbol</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
+                        dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam
+                        cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
+                        quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem.
+                    </p>
+                </div>
+                <div class="img-cont-container container col-md-6">
+                    <img class="img-responsive" src="../imagenes/evento_dpt.jpg" alt="evento">
+                </div>
+            </article>
+        </section>
 
     </div>
+
+</div>

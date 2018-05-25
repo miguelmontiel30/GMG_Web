@@ -90,11 +90,27 @@ hr.separador-articulo{
     font-size: 18px;
     text-align: justify;    
 }
-                    /*Fin de los estilos para los ARTICULOS */
 
+/* Estilo del contenedor del FORM */
+form.container{
+    padding-top: 20px;
+}
+
+/* Estilo para los enlaces de las redes sociales */
+div.container-fluid p.desarrollador a{
+    color: white;
+}
+
+/* Estilo al pasar el ratón por los enlaces de las redes sociales */
+div.container-fluid p.desarrollador a:hover{
+    color: gray;
+}
+
+                    /*Fin de los estilos para los ARTICULOS */
+                    
                     /* Estilos para el ASIDE */
 aside{
-   
+
 }
                     /*Fin de los Estilos para el ASIDE */
 

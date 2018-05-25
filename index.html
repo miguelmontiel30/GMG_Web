@@ -349,7 +349,7 @@
 
     </article>
 
-    <!-- Articulo de la página web 
+    <!-- Articulo para el CONTACTO 
     ==========================================-->
     <article class="articulo container-fluid col-sm-12 col-md-12">
 
@@ -357,30 +357,37 @@
             ==========================================-->
         <h2 class="titles-section"> ¡Ponte en contacto con nosotros! </h2>
 
-        <h2>¡Envíanos un correo electrónico y lo más pronto posible te daremos respuesta! </h2>
+        <h3>
+            <center>
+                    ¡Envíanos un correo electrónico y lo más pronto posible te daremos respuesta! 
+            </center>
+            
+        </h3>
 
 
         <form class="container col-sm-12 col-md-6" role="form">
-            <div class="form-group">
-                <label for="nombre">Nombre</label>
+            <div class="form-group has-success">
+                <label class="control-label" for="nombre">Nombre</label>
                 <input type="text" class="form-control" id="nombre" placeholder="Escriba su nombre">
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
+            <div class="form-group has-success">
+                <label class="control-label" for="asunto">Asunto</label>
+                <input type="text" class="form-control" id="asunto" placeholder="Escriba el asunto de su mensaje">
+            </div>
+            <div class="form-group has-success">
+                <label class="control-label" for="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="Escriba su email">
             </div>
-            <div class="form-group">
-                <label for="numero">Número de Telefono</label>
+            <div class="form-group has-success">
+                <label class="control-label" for="numero">Número de Telefono</label>
                 <input type="tel" class="form-control" id="numero" placeholder="Escriba su número Telefónico">
             </div>
-            <div class="form-group">
-                <label for="numero">Número de Telefono</label>
-                <input type="tel" class="form-control" id="numero" placeholder="Escriba su número Telefónico">
+            <div class="form-group has-success">
+                <textarea class="form-control" placeholder="Escriba aqui su mensaje" rows="7"></textarea>
             </div>
-            <div class="form-group">
-                <textarea class="form-control" placeholder="Escriba aqui su mensaje" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-success btn-default">Enviar</button>
+            <center>
+                <button type="submit" class=" btn btn-lg btn-primary btn-block">Enviar</button>
+            </center>
         </form>
 
         <!-- Contenedor de la Imagen del Articulo
@@ -397,7 +404,7 @@
 
     <!-- Inicio del Footer 
     ==========================================-->
-    <footer class="container-fluid">        
+    <footer class="container-fluid">
         <div class="container-fluid row col-sm-12 col-md-12">
             <img class="img-footer" src="imagenes/Logo.png" alt="Logotipo">
             <p class="footer-text">
@@ -406,11 +413,13 @@
             </p>
         </div>
         <div class="container-fluid col-sm-12 col-md-12">
-            <p class="">&copy; 2018 Miguel develops Inc. &middot;
+            <p class="desarrollador">&copy; 2018 Miguel develops Inc. &middot;
                 <a href="https://www.facebook.com/angel.ortegamontiel">
-                    <img src="imagenes/Icons/facebook.png" alt="">Facebook</a> &middot;
+                    <img  class="img-redes" src="imagenes/Icons/facebook.png" alt="">Facebook</a> &middot;
                 <a href="#">
-                    <img src="imagenes/Icons/personal.png" alt=""> Contacto Personal/Blog</a>
+                    <img  class="img-redes" src="imagenes/Icons/personal.png" alt=""> Contacto Personal/Blog</a>
+                <a href="https://github.com/miguelmontiel30">
+                    <img  class="img-redes" src="imagenes/Icons/github.png" alt=""> Github</a>
             </p>
         </div>
         <!--<div class="container col-sm-12 col-md-3">

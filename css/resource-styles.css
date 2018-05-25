@@ -18,13 +18,18 @@ header div.container-fluid{
 
 /* Estilo para imagene de CONTACTO */
 .img-contacto{
-    max-height: 28em;
+    height: 40em;
     margin-bottom: 0px;    
 }
 
 .img-footer{
     width: 50px;
     height: 50px;
+}
+
+.img-redes{
+    width: 30px;
+    height: 30px;
 }
 
 /*Estilos para el mapa de ubicacion */
