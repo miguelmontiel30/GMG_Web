@@ -2,98 +2,92 @@
 <html lang="es">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Esta página es para publicidad del Colegio GMG">
     <meta name="author" content="">
 
     <!-- Icono y titulo del encabezado -->
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="imagenes/Logo.png">
     <title>GMG</title>
 
     <!-- Vinculos hacia los CSS y Bootstrap CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Estilos -->
     <link href="css/nav-styles.css" rel="stylesheet">
-    <link href="css/carrousel-styles.css" rel="stylesheet">
+    <link href="css/resource-styles.css" rel="stylesheet">
     <link href="css/section-styles.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- Cabecera con el carrousel y el menú -->
+    <script src="js/plugins.js"></script>
+
+    <!-- Inicio de la cabecera de la página 
+    ==========================================-->
     <header>
 
-        <!-- Barra de navegación -->
-        <nav class="navbar navbar-fixed-top navbar-default container" role="navigation">
+        <!-- Barra de navegación 
+        ==========================================-->
+        <nav class="navbar container-fluid navbar-fixed-top navbar-default" role="navigation">
 
-            <!--Logotipo y boton para dispositivos pequeños-->
+            <!-- Cabecera de el contenido del navheader -->
             <div class="navbar-header">
+
+                <!-- Botón para abrir navegación en Dispositivos Móbiles-->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="sr-only">Abrir navegación</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
-                    <img id="logo" src="imagenes/Logo.jpg" alt="">
+
+                <!-- Enlace con el Logotipo de la escuela-->
+                <a class="" href="index.html">
+                    <img alt="Brand" src="imagenes/Logo.png">
+                    <p class="pull-right navbar-text hidden-xs hidden-sm">Colegio Gabriel Mancera García</p>
+                    <p class="pull-right navbar-text hidden-md hidden-lg">Colegio GMG</p>
                 </a>
-                <p id="menu-letras" class="hidden-xs hidden-sm navbar-text">Colegio Gabriel Mancera García</p>
-                <p id="menu-letras" class="hidden-lg hidden-md navbar-text">Colegio GMG</p>
+
             </div>
 
-            <!-- Botones de la barra de navegación -->
-            <div class="collapse nav-botones navbar-collapse navbar-ex1-collapse">
+
+            <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                     otro elemento que se pueda ocultar al minimizar la barra -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a id="menu-letras" href="conocenos.html">Conócenos</a>
+                        <a href="conocenos.html">Conócenos</a>
                     </li>
-
-                    <li class="dropdown">
-                        <a id="menu-letras" href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Inicia Sesión
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a id="menu-letras" href="#">Padres</a>
-                            </li>
-                            <li>
-                                <a id="menu-letras" href="#">Profesores</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="#">Inicie Sesión</a>
                     </li>
                 </ul>
             </div>
+
         </nav>
 
+        <!-- Contenedor con la imagen 
+        ==========================================-->
+        <div class="container-fluid col-12">
+            <img src="imagenes/img_slider_1.png" alt="Conocenos GMG">
+        </div>
     </header>
+    <!-- Fin de la cabecera 
+    ==========================================-->
 
-    <aside class="hidden-xs hidden-sm col-md-3">
-        <div class="container-fluid">
-            <br>
-            <ul>
-                <li class="list-group-item active" id="#mn"> Menu de navegación </li>
-                <a href="#informes" class="list-group-item">Requisitos de inscripción</a>
-                <a href="#uniformes" class="list-group-item">El uniforme de la escuela</a>
-                <a href="#participaciones" class="list-group-item">Participaciones importantes</a>
-            </ul>
-        </div>
-    </aside>
+    <section class="container-fluid col-md-9 col-sm-12 contenedor-articulos">
 
-    <section class="container-fluid col-sm-12 contenedor-articulos">
 
-        <div class="img-rounded container titles-section col-sm-12">
-            <h2>
-                <center>
-                    ¡Inscribete con nosotros!
-                </center>
-            </h2>
-        </div>
+        <h2 class="titles-section">            
+                ¡Inscribete con nosotros!            
+        </h2>
 
         <!--tabs de requisitos -->
-        <div class="requisitos col-md-8 container">
+        <div class="container">
             <div class="row">
                 <div class="container col-md-8">
                     <div role="tabpanel">
@@ -181,6 +175,18 @@
 
     </section>
 
+    <aside class="hidden-xs hidden-sm col-md-3">
+        <div class="container-fluid">
+            <br>
+            <ul>
+                <li class="list-group-item active" id="#mn"> Menu de navegación </li>
+                <a href="#informes" class="list-group-item">Requisitos de inscripción</a>
+                <a href="#uniformes" class="list-group-item">El uniforme de la escuela</a>
+                <a href="#participaciones" class="list-group-item">Participaciones importantes</a>
+            </ul>
+        </div>
+    </aside>
+
 
 
     <div class="clearfix"></div>
@@ -229,6 +235,9 @@
         </section>
 
     </div>
+
+    <div class="clearfix"></div>
+
 
     <!-- Inicio del Footer 
     ==========================================-->
