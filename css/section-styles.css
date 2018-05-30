@@ -156,11 +156,22 @@ ul.requisitos-tab li{
     color: rgb(2, 138, 175);    
 }
 
-/**/
+/*Estilo para los elemntos ul*/
 ul.requisitos-tab{
     padding-left: 5px;
 }
 
+/*Estilo para los titulos de los uniformes */
+.title-uniform{
+    text-align: center;
+    font-size: 2em;
+    color: #00718F;
+}
+
+/* Estilo para el texto de los uniformes*/
+.text-uniform li{
+    color: rgb(2, 138, 175);    
+}
 
                     /*Fin de los estilos para los ARTICULOS */
                     

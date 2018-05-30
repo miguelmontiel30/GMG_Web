@@ -22,6 +22,12 @@ header div.container-fluid img{
     margin-bottom: 0px;    
 }
 
+/* Estilo para imagenes de los uniformes */
+#uniforme{
+    width: 150px;
+    height: 360px;;
+}
+
 /* Estilo para imagene de CONTACTO */
 .img-contacto{
     height: 40em;
