@@ -15,6 +15,11 @@ body::-webkit-scrollbar-thumb:hover{
     border-radius: 10px; 
 }
 
+/* Estilo para quitar margenes a la Clase ROW */
+.row{
+    margin: 0px;    
+}
+
                     /* Fin de los estilos para la ScrollBar */
 
                     /* Estilos para los Articulos */
@@ -105,6 +110,57 @@ div.container-fluid p.desarrollador a{
 div.container-fluid p.desarrollador a:hover{
     color: gray;
 }
+
+/* Estilo para las tabs de requisitos */
+.requisitos-tabs{
+    padding-right: 15px;
+    padding-left: 15px;    
+}
+
+/* Estilo para el contenido de las tabs */
+.contenido-tabs{
+    padding: 15px;
+}
+
+/* Estilo para el contenedor de la información*/
+div.contenido-tabs div.pull-left{
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen que está en las tabs*/
+div.contenido-tabs img{
+       height: 100%;
+}
+
+/* Estilo para el botón de la sección de las tabs*/
+#informacion{
+    margin-top: 10px;
+}
+
+/*Estilo para los titulos de las tabs*/
+.title-tab{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(1, 63, 80);    
+}
+
+/* Estilo para los subtitulos de las tabs */
+.subtitle-tab{
+    text-align: left;
+    font-size: 1.5em;
+    color: #00718F;
+}
+
+/* Estilos para los elementos de la lista en las tabs */
+ul.requisitos-tab li{
+    color: rgb(2, 138, 175);    
+}
+
+/**/
+ul.requisitos-tab{
+    padding-left: 5px;
+}
+
 
                     /*Fin de los estilos para los ARTICULOS */
                     

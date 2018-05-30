@@ -79,117 +79,112 @@
     <!-- Fin de la cabecera 
     ==========================================-->
 
-    <section class="container-fluid col-md-9 col-sm-12 contenedor-articulos">
+    <section class="container-fluid row ">
+        <br>
 
-
-        <h2 class="titles-section">            
-                ¡Inscribete con nosotros!            
-        </h2>
-
-        <!--tabs de requisitos -->
-        <div class="container">
-            <div class="row">
-                <div class="container col-md-8">
-                    <div role="tabpanel">
-
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#seccion1" aria-controls="" data-toggle="tab" role="tab">Jardin 2</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#seccion2" aria-controls="" data-toggle="tab" role="tab">Preescolar 3</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#seccion3" aria-controls="" data-toggle="tab" role="tab">Primaria</a>
-                            </li>
-                        </ul>
-
-                        <div class="tab-content">
-
-                            <div role="tabpanel" class="row tab-pane active jumbotron" id="seccion1">
-                                <div class="container col-md-6">
-                                    <h3>Requisitos Jardín-2</h3>
-                                    <p>
-                                        <ul>
-                                            <li>4 años cumplidos al 31 de diciembre (2° preescolar)</li>
-                                            <li>Acta de Nacimiento</li>
-                                            <li>Copia del acta de nacimiento.</li>
-                                            <li>Copia de CURP.</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
-                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
-                                </div>
-                            </div>
-
-                            <div role="tabpanel" class="row tab-pane jumbotron" id="seccion2">
-                                <div class="container col-md-6">
-                                    <h3 class="inscrip">Requisitos Preescolar-3</h3>
-                                    <p>
-                                        <ul>
-                                            <li>5 años cumplidos al 31 de diciembre (3° preescolar)</li>
-                                            <li>Acta de Nacimiento</li>
-                                            <li>Copia del acta de nacimiento.</li>
-                                            <li>Copia de CURP.</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
-                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
-                                </div>
-                            </div>
-
-                            <div role="tabpanel" class="row tab-pane jumbotron" id="seccion3">
-                                <div class="container col-md-6">
-                                    <h3 class="inscrip">Requisitos Primaria</h3>
-                                    <p>
-                                        <ul>
-                                            <li>Copia de acta de nacimiento.</li>
-                                            <li>Copia de CURP.</li>
-                                            <li>Copia de cartilla de vacunación (solo para ingreso a 1º).</li>
-                                            <li>Constancia de estudios de 3° de Preescolar (para ingreso a 1º).</li>
-                                            <li>Copia de la boleta del grado que cursa actualmente y del año anterior (para ingreso
-                                                de 2° a 6° grado).</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                                <div class="img-tab container col-md-6 hidden-xs hidden-sm">
-                                    <img src="../imagenes/Icons/requisito.png" alt="Requisitos" class="img-tab">
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container titles-section requisitos img-rounded col-md-6">
-            <h2>
-                <center>
-                    ¡Aprovecha este Mes!
-                </center>
+        <!-- Tabs de requisitos 
+        ==========================================-->
+        <div class="container-fluid row col-md-9 requisitos-tabs">
+            <h2 class="titles-section">
+                ¡Inscribete con nosotros!
             </h2>
+            <br>
+            <div role="tabpanel">
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a role="tab" href="#seccion1" aria-controls="seccion1" data-toggle="tab">Jardín 2</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a role="tab" href="#seccion2" aria-controls="seccion2" data-toggle="tab">Preescolar 3</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a role="tab" href="#seccion3" aria-controls="seccion3" data-toggle="tab">Primaria</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+
+                    <div role="tabpanel" class="contenido-tabs row tab-pane jumbotron active " id="seccion1">
+                        <div class="container-fluid col-sm-12 col-md-8">
+                            <h3 class="title-tab">Requisitos Jardín-2</h3>
+                            <h4 class="subtitle-tab">¿Ya cuentas con estos requisitos?</h4>
+                            <ul class="requisitos-tab">
+                                <li>4 años cumplidos al 31 de diciembre (2° preescolar)</li>
+                                <li>Acta de Nacimiento</li>
+                                <li>Copia del acta de nacimiento.</li>
+                                <li>Copia de CURP.</li>
+                            </ul>
+                            <center>
+                                <button id="informacion" class="btn btn-primary btn-md">Obtener más información</button>
+                            </center>
+                        </div>
+                        <div class="container-fluid col-md-4">
+                            <img class="img-responsive hidden-xs hidden-sm" src="imagenes/Icons/requisito.png" alt="Requisitos">
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="contenido-tabs row tab-pane jumbotron " id="seccion2">
+                        <div class="container-fluid col-sm-12 col-md-8">
+                            <h3 class="title-tab">Requisitos Preescolar-3</h3>
+                            <h4 class="subtitle-tab">¿Ya cuentas con estos requisitos?</h4>
+                            <ul class="requisitos-tab">
+                                <li>5 años cumplidos al 31 de diciembre (3° preescolar)</li>
+                                <li>Acta de Nacimiento</li>
+                                <li>Copia del acta de nacimiento.</li>
+                                <li>Copia de CURP.</li>
+                            </ul>
+                            <center>
+                                <button id="informacion" class="btn btn-primary btn-md">Obtener más información</button>
+                            </center>
+                        </div>
+                        <div class="container-fluid col-md-4">
+                            <img class="img-responsive hidden-xs hidden-sm" src="imagenes/Icons/requisito.png" alt="Requisitos">
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="contenido-tabs row tab-pane jumbotron" id="seccion3">
+                        <div class="container-fluid col-sm-12 col-md-8">
+                            <h3 class="title-tab">Requisitos Primaria</h3>
+                            <h4 class="subtitle-tab">¿Traes todos los requisitos? </h4>
+                            <ul class="requisitos-tab">
+                                <li>Copia de acta de nacimiento.</li>
+                                <li>Copia de CURP.</li>
+                                <li>Copia de cartilla de vacunación (solo para ingreso a 1º).</li>
+                                <li>Constancia de estudios de 3° de Preescolar (para ingreso a 1º).</li>
+                                <li>Copia de la boleta del grado que cursa actualmente y del año
+                                    <br> anterior (para ingreso de 2° a 6° grado).</li>
+                            </ul>
+                            <center>
+                                <button id="informacion" class="btn btn-primary btn-md">Obtener más información</button>
+                            </center>
+                        </div>
+                        <div class="container-fluid col-md-4">
+                            <img class=" hidden-xs hidden-sm" src="imagenes/Icons/requisito.png" alt="Requisitos">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
+
+        <aside class="hidden-xs hidden-sm row col-md-3">
+            <div class="container-fluid">
+                <br>
+                <ul>
+                    <li class="list-group-item active" id="#mn">Menu de navegación </li>
+                    <a href="#informes" class="list-group-item">Requisitos de inscripción</a>
+                    <a href="#uniformes" class="list-group-item">El uniforme de la escuela</a>
+                    <a href="#participaciones" class="list-group-item">Participaciones importantes</a>
+                </ul>
+            </div>
+        </aside>
 
     </section>
 
-    <aside class="hidden-xs hidden-sm col-md-3">
-        <div class="container-fluid">
-            <br>
-            <ul>
-                <li class="list-group-item active" id="#mn"> Menu de navegación </li>
-                <a href="#informes" class="list-group-item">Requisitos de inscripción</a>
-                <a href="#uniformes" class="list-group-item">El uniforme de la escuela</a>
-                <a href="#participaciones" class="list-group-item">Participaciones importantes</a>
-            </ul>
-        </div>
-    </aside>
 
-
-
-    <div class="clearfix"></div>
 
     <!-- Contenedor para sección del personal -->
     <div class="container-fluid">
@@ -269,67 +264,8 @@
                 </div>-->
     </footer>
 
-    <!-- Vinculos a JavaScript y JQuery -->
-    <script src="../js/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
-
-
-<!-- Contenedor principal de la página -->
-<div class="container-fluid contenido" id="Contenedor principal">
-
-    <!-- Contenedor del cuerpo de la página -->
-    <div class="container-fluid">
-
-        <!-- Logros-->
-        <section class="logros">
-            <article class="principal-content container-fluid">
-                <div id="titles-section" class="col-sm-12 container-fluid">
-                    <h1>Eventos</h1>
-                </div>
-                <div class="container col-md-6">
-                    <h3>Día de primavera</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
-                        dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam
-                        cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
-                        quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem.
-                    </p>
-                </div>
-                <div class="img-cont-container container col-md-6">
-                    <img class="img-responsive" src="../imagenes/disfraz.jpg" alt="Día de disfraz">
-                </div>
-            </article>
-        </section>
-
-        <!-- Actividades-->
-        <section>
-            <article class="principal-content container-fluid">
-                <div id="titles-section" class="container-fluid">
-                    <h1>Fomento al deporte</h1>
-                </div>
-                <div class="container-information container col-md-6">
-                    <h3>Torneo de fútbol</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam cum fugit
-                        dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam quisquam
-                        cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem. Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsa odio necessitatibus qui enim ullam
-                        quisquam cum fugit dicta. Explicabo sed fuga nostrum deleniti quod dolores nobis incidunt cum quidem.
-                    </p>
-                </div>
-                <div class="img-cont-container container col-md-6">
-                    <img class="img-responsive" src="../imagenes/evento_dpt.jpg" alt="evento">
-                </div>
-            </article>
-        </section>
-
-    </div>
-
-</div>
